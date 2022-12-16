@@ -1,0 +1,36 @@
+.input-container {
+  display: flex;
+}
+.input {
+  width: 50rem;
+  max-width: 80rem;
+  height: 4.5rem;
+  background-color: #333333;
+  border: none;
+  outline: none;
+  color: #eee;
+  box-shadow: 0rem 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: "Oxygen", sans-serif;
+}
+
+.input-container button {
+  border: none;
+  background-color: #333333;
+  min-width: 5.2rem;
+  min-height: 4.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #999999;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-left: -1.5rem;
+  cursor: pointer;
+}
+
+.input:hover + button,
+button:hover {
+  background-color: #444444;
+  color: #fff;
+}

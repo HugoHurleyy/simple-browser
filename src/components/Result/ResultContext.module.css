@@ -1,0 +1,21 @@
+.container {
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 55rem));
+  gap: 4rem;
+}
+.container__link {
+  font-size: 2.1rem;
+  color: #eee;
+}
+.container__link:hover .container__title {
+  text-decoration: underline;
+}
+.container__description {
+  color: #ccc;
+  font-size: 1.2rem;
+}
+.container__title {
+  font-size: 2rem;
+  font-size: #eee !important;
+}

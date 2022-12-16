@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 4rem;
+}
+.form__logo {
+  width: 20rem;
+}
