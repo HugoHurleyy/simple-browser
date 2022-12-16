@@ -9,7 +9,7 @@ import { resultActions } from "../Redux-store/store";
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "cf8258c1fbmshffc26c9b2ea24efp1bd3e4jsne631f1018de2",
+    "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
     "X-RapidAPI-Host": "duckduckgo8.p.rapidapi.com",
   },
 };
